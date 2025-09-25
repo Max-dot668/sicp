@@ -62,6 +62,10 @@ def accumulate(fuse, start, n, term):
     19
     """
     "*** YOUR CODE HERE ***"
+    total, k = start, 1
+    while k <= n:
+        total, k = fuse(total, term(k)), increment(k)
+    return total
 
 
 def summation_using_accumulate(n, term):
