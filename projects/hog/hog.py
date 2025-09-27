@@ -26,7 +26,7 @@ def roll_dice(num_rolls, dice=six_sided):
     sow_sad = False
     
     for _ in range(num_rolls):
-        roll = dice()
+        roll = dice()   # Store once to avoid accidentally calling multiple times
         if roll == 1:
             sow_sad = True
         total += roll
