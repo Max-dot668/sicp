@@ -47,6 +47,18 @@ def boar_brawl(player_score, opponent_score):
     """
     # BEGIN PROBLEM 2
     "*** YOUR CODE HERE ***"
+    if len(str(opponent_score)) == 1:
+        opponent_tenth_digit = 0
+    else:
+        last_two_digits = opponent_score % 100
+        opponent_tenth_digit = last_two_digits // 10
+        
+    player_ones_digit = player_score % 10
+    
+    zero_roll_points = 3 * abs(opponent_tenth_digit - player_ones_digit)
+    if zero_roll_points == 0:
+        return 1
+    return zero_roll_points
     # END PROBLEM 2
 
 
