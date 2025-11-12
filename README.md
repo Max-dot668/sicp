@@ -13,3 +13,26 @@ I am using this repository to:
 
 ## Directory Structure
 
+SICP/
+├── chapters/ # Chapter exercises
+│ ├── 1/
+│ │ └── ex-1.1.scm
+│ └── ...
+├── projects/ # Project files
+│ └── project0/
+│ └── project0.scm
+├── image/ # Images used in README or notes
+│ └── Nagato_Yuki_Bandaged_Hand_SICP.png
+└── textbook/ # PDF of the book
+└── sicp.pdf
+
+
+## About Me
+
+I am using this repository as a personal learning project to become a better programmer. The goal is to follow the book, do all exercises and projects, and gradually gain a deeper understanding of computer science concepts.  
+
+No progress tracker or deadlines — just focused, hands-on learning.  
+
+---
+
+Happy coding! 🚀
