@@ -1,0 +1,11 @@
+# Emacs/Geiser/Edwin
+*~
+.#*
+.emacs.desktop
+
+# Scheme compiled files
+*.zo
+
+# OS files
+.DS_Store
+*.swp
