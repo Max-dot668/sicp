@@ -16,8 +16,6 @@ I am using this repository to:
 
 I am using this repository as a personal learning project to become a better programmer. The goal is to follow the book, do all exercises and projects, and gradually gain a deeper understanding of computer science concepts.  
 
-No progress tracker or deadlines — just focused, hands-on learning.  
-
 ---
 
 “Programs must be written for people to read, and only incidentally for machines to execute.” — SICP
