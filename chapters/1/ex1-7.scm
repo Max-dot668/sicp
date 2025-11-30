@@ -1,3 +1,4 @@
+;; Exercise 1.7
 ;; Design a square-root procedure for good enough? such that it watches how guess changes
 ;; from one iteration to the next and stops when the change is a very small fraction of the guess
 
