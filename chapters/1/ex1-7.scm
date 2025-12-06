@@ -24,12 +24,12 @@
 
 ;; Good enough? procedure
 ;; How much did the guess change? => (abs (- guess next-guess))
-;; Copmare the change in size of the guess => (/ (abs (- guess next-guess)) guess)
+;; Compare the change in size of the guess => (/ (abs (- guess next-guess)) guess)
 ;; stop when the guess is tiny => (< ... 0.001)
 (define (good-enough? guess next-guess)
   (< (/ (abs (- guess next-guess)) guess)
      0.001))
 
-;; main procedure where the initial guess is 1
+;; Main procedure where the initial guess is 1
 (define (sqrt x)
   (sqrt-iter 1.0 x))
